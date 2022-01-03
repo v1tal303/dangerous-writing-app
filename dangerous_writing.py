@@ -45,7 +45,7 @@ def reset_timer(test):
 
 window = Tk()
 window.title("Dangerous Writing App")
-window.config(padx=100, pady=50, bg=COLORS[9])
+window.config(padx=100, pady=100, bg=COLORS[9])
 canvas = Canvas(width=600, height=600, bg=COLORS[9], highlightthickness=0)
 textBox = Text(width=10, height=10, bg=COLORS[9], bd=0, font=(FONT_NAME, 12, "bold"), fg="#f5f5f5")
 textBox.tag_config("center", justify="center")
